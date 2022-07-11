@@ -11,7 +11,7 @@ As the position is based on the DevOps world, we ask you to set up a CI/CD pipel
 
 In this repository we provide you the [containerized application](./app), and the [Dockerfile](./Dockerfile). Is a simple Nginx webserver, serving a static HTML file.
 
-The deadline is **7 days**, starting today (the day you got the email from HR with this information). Feel free to get back to us if you have any questions or concerns, or if for any reason you can't finish within the given timeline.
+Feel free to get back to us if you have any questions or concerns, or if for any reason you can't finish within the given timeline.
 
 
 ## Requirements
@@ -21,7 +21,10 @@ At least:
 3. You must use [Docker Hub](https://hub.docker.com) or any other *Docker* container registry to save the container images.
 4. The pipeline should be triggered when a *Pull request* is merged into `main` or `master` branches of your repository. Direct commits into `main` or `master` are not allowed.
 5. You must use as much configuration-as-code (CaC) as possible. Authentication secrets like usernames/passwords/tokens should be isolated from the tools you're using.
-6. (BONUS POINT) Deploy the image and run the app somewhere
+6. (BONUS POINT #1) Deploy the image and run the app somewhere
+7. (BONUS POINT #2) Install Kubernetes cluster (anywhere you like) and deploy WordPress and Istio.
+Expose service to be accessible via Browser
+
 
 ## Steps
 To achieve the requirements, you should follow this procedure:
